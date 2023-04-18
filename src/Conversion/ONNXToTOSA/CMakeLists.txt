@@ -11,6 +11,7 @@ add_onnx_mlir_library(OMONNXToTOSA
   Math/Conv2D.cpp
   NN/MaxPoolSingleOut.cpp
   Tensor/Constant.cpp
+  Tensor/Transpose.cpp
 
   LINK_LIBS PUBLIC
   OMONNXOps
